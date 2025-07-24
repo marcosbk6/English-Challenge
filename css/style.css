@@ -48,7 +48,7 @@ header#cabecalho-principal{
 section#corpo{
     display: flex;
     flex-direction: row;
-    margin-top: 15px;
+    margin-top: 100px;
 }
 
 section#corpo div#esquerda{
@@ -60,12 +60,30 @@ section#corpo div#esquerda{
     align-items: center;
 }
 
+#box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 500px;
+    border: 10px solid white;
+    border-radius: 15px;
+    background-color: rgba(129, 129, 129, 0.664);
+}
+
 section#corpo div#esquerda div#cor-atual{
-    margin-top: 1s0px;
+    margin-top: 10px;
     height: 200px;
     width: 200px;
     border: 10px solid black;
     border-radius: 15px;
+}
+
+#cor-na-caixa {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 section#corpo div#esquerda button#btn-responder{
@@ -80,6 +98,16 @@ section#corpo div#esquerda button#btn-responder{
     font-size: 25px;
     font-weight: bold;
     padding: 15px 45px;
+    margin-top: 25px;
+}
+
+#suaResposta{
+    margin-top:10px;
+    font-size: 19px;
+}
+
+#pronuncia {
+
 }
 
 div#container footer#rodape{
